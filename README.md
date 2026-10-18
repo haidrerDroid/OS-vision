@@ -21,7 +21,7 @@
 - [Testing and Roadmap](#-testing-and-roadmap)
 - [Contributing](#-contributing)
 - [Team](#-team)
-- [License](#-license)
+
 
 ## 🌟 Overview
 **OSVision** is a browser-based educational simulator designed to make Operating Systems concepts easier to explore through interactive visualizations. Learners can configure processes, run algorithms, inspect execution timelines, and compare results instead of relying only on textbook explanations and manual calculations.
@@ -195,8 +195,6 @@ Please verify algorithm implementations against known examples before submitting
 
 *Visualize. Simulate. Understand.*
 
-## 📜 License
-The project license has not yet been finalized. Add a license file before distributing the project for reuse; until then, do not assume the source is available for unrestricted reuse.
 
 ---
 
