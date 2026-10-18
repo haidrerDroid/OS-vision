@@ -182,7 +182,7 @@ Suggestions, bug reports, tests, documentation improvements, and new educational
 4. Open a pull request describing the changes.
 
 Please verify algorithm implementations against known examples before submitting changes.
-## 👥 Team
+## 👨‍💻 Meet the Developers
 
 | Team Member | Role |
 |---|---|
