@@ -819,7 +819,7 @@ Designed and developed collaboratively by our project team.
 |---|---|
 | [**Haider Hamid**](https://github.com/haidrerDroid) | **Project Lead • Product & UX** — Leads product direction, UX design, development coordination, and documentation. |
 | **Suhaib Nazir** | **Frontend & Visualizations** — Builds UI components, Gantt charts, and interactive playback features. |
-| **Sayed Shakir** | **Scheduling Engine** — Implements and verifies scheduling algorithms and unit tests. |
+| [**Sayed Shakir**]|(https://github.com/shakirsyed819) **Scheduling Engine** — Implements and verifies scheduling algorithms and unit tests. |
 | **Sahil** | **Testing & QA** — Handles testing, edge cases, and metrics verification. |
 | **Zayeem Zahoor** | **Deadlock & Banker's Module** — Develops resource-allocation models and Banker's Algorithm checks. |
 | **Haroon Hamid** | **Documentation & Demos** — Creates examples, tutorials, and demo materials. |
