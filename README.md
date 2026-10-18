@@ -810,9 +810,62 @@ By combining algorithmic correctness, interactive visualization, and measurable 
 
 The long-term vision is to expand the project into a comprehensive educational environment for exploring how operating systems schedule processes, manage resources, coordinate execution, and hand[...]
 
-## ✨ Authors
 
-Project created by: Haider Hamid, Suhaib Nazir, Shakir, Sahil, Zayeem Zahoor, Haroon Hamid
+<div align="center">
+
+# 👨‍💻 Meet the Team
+
+**OSVision — Interactive Operating Systems Simulator**
+
+*Designed and developed collaboratively by our project team.*
+
+</div>
+
+---
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <strong>Haider Hamid</strong><br>
+      <sub>Project Team Member</sub>
+    </td>
+    <td align="center" width="50%">
+      <strong>Suhaib Nazir</strong><br>
+      <sub>Project Team Member</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Sayed Shakir</strong><br>
+      <sub>Project Team Member</sub>
+    </td>
+    <td align="center" width="50%">
+      <strong>Sahil</strong><br>
+      <sub>Project Team Member</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Zayeem Zahoor</strong><br>
+      <sub>Project Team Member</sub>
+    </td>
+    <td align="center" width="50%">
+      <strong>Haroon Hamid</strong><br>
+      <sub>Project Team Member</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+<div align="center">
+
+**Built with curiosity. Driven by collaboration.**
+
+*Visualize. Simulate. Understand.*
+
+</div>
+
 
 ---
 
