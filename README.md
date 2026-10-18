@@ -195,6 +195,19 @@ Please verify algorithm implementations against known examples before submitting
 
 *Visualize. Simulate. Understand.*
 
+---
+
+## 🎓 Project Information
+
+**OSVision — Interactive Operating Systems Simulator**
+
+- **Project Type:** Minor Project
+- **Project Date:** 18 October 2026
+- **Developed By:** OSVision Project Team
+
+*Built to make Operating Systems concepts interactive, visual, and easier to understand.*
+
+**Visualize. Simulate. Understand.**
 
 ---
 
