@@ -1,57 +1,80 @@
-<p align="center">
+ <p align="center">
   <img src="assets/banner.svg" alt="OSVision Banner" width="900" />
 </p>
 
 <h1 align="center">OSVision</h1>
-<p align="center"><strong>Interactive Operating Systems Simulator</strong><br/><em>Visualize. Simulate. Understand Operating Systems.</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-Educational%20Simulator-6366f1?style=for-the-badge" alt="Educational Simulator" />
-  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20TypeScript-3178C6?style=for-the-badge" alt="React and TypeScript" />
-  <img src="https://img.shields.io/badge/Build%20Tool-Vite-646CFF?style=for-the-badge" alt="Vite" />
+  <strong>Interactive Operating Systems Simulator</strong><br>
+  <em>Visualize. Simulate. Understand Operating Systems.</em>
 </p>
 
-**Explore CPU scheduling · Analyze performance · Understand deadlocks · Simulate resource allocation**
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Minor%20Project-6366f1?style=for-the-badge" alt="Minor Project">
+  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20TypeScript-3178C6?style=for-the-badge" alt="React and TypeScript">
+  <img src="https://img.shields.io/badge/Build%20Tool-Vite-646CFF?style=for-the-badge" alt="Vite">
+</p>
 
-## 📑 Contents
+<p align="center">
+  Explore CPU Scheduling · Analyze Performance · Understand Deadlocks · Simulate Resource Allocation
+</p>
+
+---
+
+## 📑 Table of Contents
+
 - [Overview](#-overview)
-- [Problem and Solution](#-problem-and-solution)
-- [Features](#-features)
+- [Problem Statement](#-problem-statement)
+- [Objectives and Features](#-objectives-and-features)
+- [Technology Stack](#️-technology-stack)
+- [System Architecture](#️-system-architecture)
 - [Getting Started](#-getting-started)
-- [Testing and Roadmap](#-testing-and-roadmap)
+- [Testing and Development Roadmap](#-testing-and-development-roadmap)
+- [Limitations and Future Scope](#️-limitations-and-future-scope)
 - [Contributing](#-contributing)
-- [Team](#-team)
-
+- [Meet the Developers](#-meet-the-developers)
+- [Project Information](#-project-information)
 
 ## 🌟 Overview
-**OSVision** is a browser-based educational simulator designed to make Operating Systems concepts easier to explore through interactive visualizations. Learners can configure processes, run algorithms, inspect execution timelines, and compare results instead of relying only on textbook explanations and manual calculations.
 
-The project is intended for computer science students, instructors, and developers. It is an educational simulator, not a real operating system kernel.
+**OSVision** is a browser-based educational simulator designed to make Operating Systems concepts easier to understand through interactive visualizations and practical simulations.
 
-## ❓ Problem and Solution
-Operating Systems concepts can be difficult to understand from static examples. Students may struggle to follow process execution, understand preemption, calculate scheduling metrics, or see how resource contention can lead to deadlock.
+The project aims to help students explore CPU scheduling algorithms, analyze process performance, understand deadlocks, and simulate resource allocation. Visual tools such as Gantt charts, process tables, performance graphs, and event logs will connect theoretical concepts with practical learning.
 
-OSVision aims to address this through Gantt charts, performance summaries, resource matrices, and step-by-step event logs that connect theory with practical learning.
+OSVision is intended for computer science students, educators, and anyone interested in learning Operating Systems.
 
-## ✨ Features
+> OSVision is an educational simulator, not a real operating system kernel.
 
-### 1. CPU Scheduling
-The planned simulator supports four fundamental algorithms:
+## ❓ Problem Statement
 
-| Algorithm | Type | Purpose |
+Operating Systems concepts can be challenging to understand through textbooks and static examples alone. Students often find it difficult to visualize process execution, understand preemption, calculate scheduling metrics, and analyze resource allocation or deadlock scenarios.
+
+OSVision aims to address these challenges through an interactive learning environment that presents algorithm execution, calculations, and system states visually.
+
+## 🎯 Objectives and Features
+
+### 1. CPU Scheduling Simulator
+
+The simulator is designed to demonstrate four fundamental CPU scheduling algorithms.
+
+| Algorithm | Scheduling Type | Purpose |
 |---|---|---|
 | First Come, First Served (FCFS) | Non-preemptive | Executes processes in arrival order |
 | Shortest Job First (SJF) | Non-preemptive | Selects the shortest available CPU burst |
-| Shortest Remaining Time First (SRTF) | Preemptive | Reconsiders the running process when a shorter job arrives |
-| Round Robin (RR) | Preemptive | Shares CPU time using a configurable quantum |
+| Shortest Remaining Time First (SRTF) | Preemptive | Selects the process with the shortest remaining time |
+| Round Robin (RR) | Preemptive | Allocates CPU time using a configurable time quantum |
 
-Users will be able to enter process IDs, arrival times, and burst times; configure the Round Robin quantum; run or reset simulations; and inspect scheduling decisions.
+Users will be able to configure process IDs, arrival times, burst times, and the Round Robin time quantum to explore scheduling behavior.
 
-### 2. Gantt Chart and Step-by-Step Execution
-An interactive timeline will show execution intervals, start and finish times, idle periods, and preemption boundaries. Planned controls include play, pause, step, and reset. An event log will explain changes to the running process and ready queue.
+### 2. Gantt Charts and Execution Visualization
+
+Gantt charts will display process execution intervals, completion times, idle periods, and preemption boundaries.
+
+Planned interactive controls include play, pause, step-by-step execution, and reset. An event log will help explain scheduling decisions and ready-queue changes.
 
 ### 3. Performance Analysis
-The simulator will calculate relevant metrics:
+
+OSVision will calculate and present important scheduling metrics.
 
 | Metric | Formula |
 |---|---|
@@ -61,70 +84,101 @@ The simulator will calculate relevant metrics:
 | CPU Utilization | Busy Time ÷ Total Time × 100% |
 | Throughput | Completed Processes ÷ Elapsed Time |
 
-Average waiting, turnaround, and response times will support comparisons. Preemption counts, context switches, and idle time may also be shown where modeled. Calculation assumptions will be documented.
+Average waiting time, turnaround time, and response time will support algorithm comparisons. Context switches, preemption counts, and idle time may also be included.
 
 ### 4. Algorithm Comparison
-Users will be able to compare algorithms using the same process workload. Charts and summaries will show how scheduling choices affect performance. No algorithm is best for every workload; results depend on the processes and the metric being considered.
+
+Users will be able to evaluate different scheduling algorithms using the same process workload.
+
+Comparative charts and performance summaries will illustrate how algorithm selection affects execution and scheduling metrics. Results will depend on the workload and the performance measure being considered.
 
 ### 5. Deadlock Simulator
-The planned module will model processes competing for limited resources. Users can configure resources, allocations, requests, and releases, then inspect availability and waiting relationships. Controlled examples will demonstrate resource contention and circular waits.
+
+The deadlock module will demonstrate how processes compete for limited resources.
+
+Planned functionality includes configuring resource availability, allocations, requests, and releases, along with visualizing resource relationships and identifying circular waits in suitable scenarios.
 
 ### 6. Banker's Algorithm
-This module will demonstrate deadlock avoidance by checking whether a resource state is safe.
 
-**Need Matrix = Maximum − Allocation**
+The Banker's Algorithm module will demonstrate deadlock avoidance by checking whether a resource-allocation state is safe.
 
-Planned results include the Available vector, Allocation, Maximum and Need matrices, a safe sequence (if one exists), and the resulting safe or unsafe state. Requests will be checked against declared needs and available resources. An unsafe state does not necessarily mean a deadlock has already occurred.
+**Need Matrix = Maximum Matrix − Allocation Matrix**
+
+The simulator will display:
+
+- Available resource vector
+- Allocation, Maximum, and Need matrices
+- Safe sequence, when one exists
+- Safe or unsafe state
+- Resource-request validation
+
+An unsafe state does not necessarily mean that a deadlock has already occurred.
 
 ### 7. Reports and Visualizations
-Planned outputs include process tables, Gantt charts, performance graphs, resource-allocation matrices, event logs, and CSV export for supported results.
+
+Planned reporting features include:
+
+- Interactive Gantt charts
+- Process tables and scheduling metrics
+- Performance comparison graphs
+- Resource-allocation matrices
+- Step-by-step execution logs
+- CSV export for supported results
 
 ## 🛠️ Technology Stack
 
 | Technology | Purpose |
 |---|---|
-| React | User interface |
+| React | User interface and reusable components |
 | TypeScript | Application and simulation logic |
 | Vite | Development server and build tool |
-| HTML and CSS | Responsive layout and styling |
+| HTML and CSS | Structure, layout, and styling |
 | Vitest | Unit testing |
-| React Testing Library | UI and interaction testing |
-| Git and GitHub | Version control and collaboration |
+| React Testing Library | Interface and interaction testing |
 | npm | Package management |
+| Git and GitHub | Version control and collaboration |
 
-The intended first release uses browser-based simulation logic and free development tools, without requiring a database or backend server. A suitable charting library may be selected for visualizations.
+The intended initial release uses browser-based simulation logic and free development tools. A database or backend server is not required for the core simulations.
 
-## 🏗️ Architecture
-OSVision is planned around four layers:
+## 🏗️ System Architecture
+
+OSVision is designed around four logical layers.
 
 ```text
-Presentation Layer
-React UI · Forms · Charts · Tables
-              |
-Simulation Engine
-FCFS · SJF · SRTF · Round Robin
-Deadlock · Banker's Algorithm
-              |
-Metrics and Analysis
-Waiting · Turnaround · Response
-Utilization · Throughput · Comparison
-              |
-State and Validation
-Input checks · Events · Simulation state
-Error handling · Reproducibility
+┌──────────────────────────────────────┐
+│          Presentation Layer          │
+│      React UI · Forms · Charts       │
+├──────────────────────────────────────┤
+│          Simulation Engine           │
+│  FCFS · SJF · SRTF · Round Robin     │
+│   Deadlock · Banker's Algorithm      │
+├──────────────────────────────────────┤
+│        Metrics and Analysis          │
+│  Waiting · Turnaround · Response     │
+│  Utilization · Throughput · Reports  │
+├──────────────────────────────────────┤
+│      State and Validation            │
+│  Input Checks · Events · Error       │
+│  Handling · Simulation State         │
+└──────────────────────────────────────┘
 ```
 
-The simulation engine will be separate from the interface so algorithms can be tested independently. Input validation and consistent state handling will help ensure predictable results.
+The simulation engine will remain independent of the user interface so that algorithms can be tested separately. Input validation and consistent state handling will support predictable and reproducible results.
 
 ## 💻 Getting Started
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) (includes npm)
+
+Install the following tools before starting:
+
+- [Node.js](https://nodejs.org/) — includes npm
 - [Git](https://git-scm.com/)
-- [Visual Studio Code](https://code.visualstudio.com/) or another editor
+- [Visual Studio Code](https://code.visualstudio.com/) or another code editor
 - A modern web browser
 
 ### Installation
+
+Clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/haidrerDroid/OSVision.git
@@ -133,7 +187,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite.
+Open the local development URL displayed in the terminal.
 
 ### Build and Test
 
@@ -142,73 +196,87 @@ npm run build
 npm run test
 ```
 
-These commands require the corresponding files and npm scripts to be configured. Adjust them if the current repository structure differs.
+These commands assume the corresponding npm scripts are configured in `package.json`. The test command may need adjustment if the repository uses a different script name.
 
-## 🧪 Testing and Roadmap
-Testing will cover algorithm correctness, edge cases, and user interactions.
+## 🧪 Testing and Development Roadmap
 
-- **Scheduling:** single or multiple processes, simultaneous arrivals, idle periods, equal burst times, preemption, and different Round Robin quanta.
-- **Metrics:** completion, turnaround, waiting, response, utilization, and throughput calculations.
-- **Deadlocks:** resource contention, circular waits, and resource availability changes.
-- **Banker's Algorithm:** safe and unsafe states, multiple safe sequences, invalid matrices, and invalid requests.
-- **Interface:** invalid input, reset behavior, and repeatable simulations.
+Testing will focus on algorithm correctness, edge cases, input validation, and interface behavior.
 
-### Development Phases
-- [ ] Set up React, TypeScript, Vite, shared types, and dashboard.
+### Testing Priorities
+
+- **CPU Scheduling:** Simultaneous arrivals, idle periods, equal burst times, preemption, and different Round Robin time quanta.
+- **Performance Metrics:** Completion, turnaround, waiting, and response times, along with utilization and throughput.
+- **Deadlocks:** Resource contention, circular waits, and resource availability changes.
+- **Banker's Algorithm:** Safe and unsafe states, multiple safe sequences, invalid matrices, and invalid requests.
+- **User Interface:** Invalid inputs, reset behavior, and repeatable simulations.
+
+### Development Roadmap
+
+- [ ] Initialize React, TypeScript, and Vite.
+- [ ] Develop the dashboard and reusable interface components.
 - [ ] Implement and test FCFS, SJF, SRTF, and Round Robin.
-- [ ] Add Gantt charts, process tables, playback, and event logs.
-- [ ] Add performance metrics and algorithm comparisons.
-- [ ] Implement deadlock scenarios and resource visualization.
+- [ ] Add Gantt charts, process tables, and execution controls.
+- [ ] Implement performance metrics and algorithm comparisons.
+- [ ] Develop deadlock scenarios and resource visualizations.
 - [ ] Implement Banker's Algorithm and safe-sequence detection.
 - [ ] Complete testing, documentation, and deployment.
 
-## ⚠️ Limitations and Future Scope
-OSVision uses simplified educational models and is **not a real operating system**. The initial scope excludes kernel-level execution, hardware interrupts, I/O scheduling, multicore scheduling, virtual memory, and every production synchronization mechanism. Results depend on the assumptions used in each simulation.
+*Roadmap items describe planned work and should be updated as implementation progresses.*
 
-Possible future modules:
-- Priority, Multilevel Queue, and Multilevel Feedback Queue scheduling
-- Semaphores, mutexes, Producer–Consumer, Readers–Writers, and Dining Philosophers
+## ⚠️ Limitations and Future Scope
+
+OSVision uses simplified educational models and does not execute as a real operating system. Its initial scope excludes kernel-level execution, hardware interrupts, multicore scheduling, virtual memory management, I/O scheduling, and production synchronization mechanisms.
+
+Potential future enhancements include:
+
+- Priority and multilevel queue scheduling
+- Multilevel Feedback Queue scheduling
+- Semaphores, mutexes, and classical synchronization problems
 - FIFO, LRU, and Optimal page replacement
 - First Fit, Best Fit, and Worst Fit memory allocation
 - FCFS, SSTF, SCAN, and C-SCAN disk scheduling
 - Guided tutorials, quizzes, and downloadable experiment reports
 
 ## 🤝 Contributing
-Suggestions, bug reports, tests, documentation improvements, and new educational modules are welcome.
+
+Suggestions, bug reports, test cases, documentation improvements, and new educational modules are welcome.
 
 1. Fork the repository.
 2. Create a feature branch.
-3. Make and test your changes.
-4. Open a pull request describing the changes.
+3. Implement and test your changes.
+4. Submit a pull request describing your contribution.
 
 Please verify algorithm implementations against known examples before submitting changes.
+
 ## 👨‍💻 Meet the Developers
 
-| Team Member | Role |
+| Developer | Role |
 |---|---|
 | [**Haider Hamid**](https://github.com/haidrerDroid) | Project Lead · Product & UX |
 | [**Suhaib Nazir**](https://github.com/lonesuhaibbb) | Frontend · Visualizations |
 | [**Sayed Shakir**](https://github.com/shakirsyed819) | Scheduling Engine |
-| **Sahil** | Testing · QA |
+| **Sahil** | Testing · Quality Assurance |
 | **Zayeem Zahoor** | Deadlock · Banker's Algorithm |
-| **Haroon Hamid** | Documentation · Demos |
+| **Haroon Hamid** | Documentation · Demonstrations |
 
-*Visualize. Simulate. Understand.*
-
----
+<p align="center">
+  <em>Visualize. Simulate. Understand.</em>
+</p>
 
 ## 🎓 Project Information
 
-**OSVision — Interactive Operating Systems Simulator**
+**Project Title:** OSVision — Interactive Operating Systems Simulator
 
 - **Project Type:** Minor Project
 - **Project Date:** 18 October 2026
 - **Developed By:** OSVision Project Team
+- **Repository:** [haidrerDroid/OSVision](https://github.com/haidrerDroid/OSVision)
 
-*Built to make Operating Systems concepts interactive, visual, and easier to understand.*
-
-**Visualize. Simulate. Understand.**
+This project aims to make Operating Systems concepts more accessible through interactive simulation, visual analysis, and practical experimentation.
 
 ---
 
-<p align="center"><strong>OSVision — Visualize. Simulate. Understand Operating Systems.</strong><br/>Built to make Operating Systems concepts visible, interactive, and understandable.</p>
+<p align="center">
+  <strong>OSVision — Visualize. Simulate. Understand Operating Systems.</strong><br>
+  Built to make Operating Systems concepts visible, interactive, and easier to understand.
+</p>
