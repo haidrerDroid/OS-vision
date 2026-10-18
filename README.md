@@ -812,29 +812,21 @@ The long-term vision is to expand the project into a comprehensive educational e
 
 ## 👨‍💻 Meet the Team
 
-OSVision — Interactive Operating Systems Simulator  
+**OSVision — Interactive Operating Systems Simulator**  
 Designed and developed collaboratively by our project team.
 
-<div align="center">
+| Team Member | Role & Short Bio |
+|---|---|
+| [**Haider Hamid**](https://github.com/haidrerDroid) | **Project Lead • Product & UX** — Leads product direction, UX design, development coordination, and documentation. |
+| **Suhaib Nazir** | **Frontend & Visualizations** — Builds UI components, Gantt charts, and interactive playback features. |
+| **Sayed Shakir** | **Scheduling Engine** — Implements and verifies scheduling algorithms and unit tests. |
+| **Sahil** | **Testing & QA** — Handles testing, edge cases, and metrics verification. |
+| **Zayeem Zahoor** | **Deadlock & Banker's Module** — Develops resource-allocation models and Banker's Algorithm checks. |
+| **Haroon Hamid** | **Documentation & Demos** — Creates examples, tutorials, and demo materials. |
 
-| Team Member | Role & short bio |
-|---:|:---|
-| **Haider Hamid**<br/><sub>Project Lead • Product & UX</sub> | Leads product direction, UX design, and coordinates development and documentation. |
-| **Suhaib Nazir**<br/><sub>Frontend & Visualizations</sub> | Builds UI components, Gantt visualizations, and the interactive playback experience. |
-| **Sayed Shakir**<br/><sub>Scheduling Engine</sub> | Implements and verifies core scheduling algorithms and unit tests. |
-| **Sahil**<br/><sub>Testing & QA</sub> | Owns automated tests, edge-case validation, and metrics verification. |
-| **Zayeem Zahoor**<br/><sub>Deadlock & Banker's Module</sub> | Designs resource-allocation models and implements the Banker's safety checks. |
-| **Haroon Hamid**<br/><sub>Docs & Demos</sub> | Produces examples, tutorial scenarios, and demo materials for lab use. |
+---
 
-</div>
-
-Want avatars and profile links? Replace a name with this pattern (example):
-
-[![Haider](https://github.com/USERNAME.png?size=64)](https://github.com/USERNAME)  
-and update USERNAME to the GitHub handle.
-
-Contribute, report issues, or request demos — open an issue or see CONTRIBUTING.md for details.
-
+*Visualize. Simulate. Understand.*
 ---
 
 <p align="center">
