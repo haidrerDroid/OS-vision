@@ -182,13 +182,12 @@ Suggestions, bug reports, tests, documentation improvements, and new educational
 4. Open a pull request describing the changes.
 
 Please verify algorithm implementations against known examples before submitting changes.
-
 ## 👥 Team
 
 | Team Member | Role |
 |---|---|
 | [**Haider Hamid**](https://github.com/haidrerDroid) | Project Lead · Product & UX |
-| **Suhaib Nazir** | Frontend · Visualizations |
+| [**Suhaib Nazir**](https://github.com/lonesuhaibbb) | Frontend · Visualizations |
 | [**Sayed Shakir**](https://github.com/shakirsyed819) | Scheduling Engine |
 | **Sahil** | Testing · QA |
 | **Zayeem Zahoor** | Deadlock · Banker's Algorithm |
