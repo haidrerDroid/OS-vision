@@ -1,12 +1,14 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="OSVision Banner" width="900"/>
+</p>
+
 # OSVision — Interactive Operating Systems Simulator
 
 **Visualize. Simulate. Understand Operating Systems.**
 
 ## 1. Project Overview
 
-OSVision is an interactive, visualization-driven Operating Systems simulator designed to help students and developers understand how an operating system manages CPU scheduling, process execution, and deadlocks.
-
-The project transforms theoretical Operating Systems concepts into practical, step-by-step simulations. Users can create processes, configure their parameters, select algorithms, execute simulations, observe system behavior, and analyze performance through Gantt charts, process tables, timelines, and statistical metrics.
+OSVision is an interactive, visualization-driven Operating Systems simulator designed to help students and developers understand how an operating system manages CPU scheduling, process execution, and resource allocation. The project transforms theoretical Operating Systems concepts into practical, step-by-step simulations. Users can create processes, configure their parameters, select algorithms, execute simulations, observe system behavior, and analyze performance through Gantt charts, process tables, timelines, and statistical metrics.
 
 OSVision aims to bridge the gap between textbook theory and practical understanding by making the internal behavior of operating system algorithms visible, measurable, and easy to explore.
 
@@ -244,8 +246,7 @@ The initial implementation will prioritize free, cross-platform tools.
 - React Testing Library for interface tests.
 - TypeScript type checking and linting.
 
-**Development Tools**
-- Git and GitHub for version control.
+**Development Tools**n- Git and GitHub for version control.
 - Visual Studio Code for development.
 - npm for dependency management.
 
