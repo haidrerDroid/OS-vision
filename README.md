@@ -50,9 +50,9 @@
 
 ## 🌟 Project Overview
 
-**OSVision** is an interactive, visualization-driven Operating Systems simulator designed to help students and developers understand how operating systems manage CPU scheduling, process execution, and resource allocation.
+**OSVision** is an interactive, visualization-driven Operating Systems simulator designed to help students and developers understand how operating systems manage CPU scheduling, process execution,[...]
 
-The project transforms theoretical Operating Systems concepts into practical, step-by-step simulations. Users will be able to create processes, configure their parameters, select algorithms, execute simulations, visualize system behavior, and analyze performance using Gantt charts, process tables, timelines, and statistical metrics.
+The project transforms theoretical Operating Systems concepts into practical, step-by-step simulations. Users will be able to create processes, configure their parameters, select algorithms, execu[...]
 
 By combining algorithmic correctness with interactive visualizations, OSVision aims to bridge the gap between textbook theory and practical understanding.
 
@@ -230,7 +230,7 @@ Additional metrics may include:
 - Total elapsed simulation time.
 - CPU idle time.
 
-All metrics will use documented calculation assumptions. In particular, context-switch overhead will be excluded unless explicitly modeled, and CPU utilization will be calculated over a clearly defined interval.
+All metrics will use documented calculation assumptions. In particular, context-switch overhead will be excluded unless explicitly modeled, and CPU utilization will be calculated over a clearly d[...]
 
 ---
 
@@ -308,7 +308,7 @@ The simulator will display:
 - Final safe or unsafe state.
 - A safe sequence when one exists.
 
-**Safety note:** An unsafe state does not necessarily mean that deadlock has already occurred. It means that the current state cannot be shown to have a safe completion sequence under the model's assumptions.
+**Safety note:** An unsafe state does not necessarily mean that deadlock has already occurred. It means that the current state cannot be shown to have a safe completion sequence under the model's[...]
 
 Resource requests will be validated against maximum declared needs and current availability before the resulting state is evaluated.
 
@@ -598,7 +598,7 @@ The intended outcome is a practical, modular learning tool that makes fundamenta
 
 ---
 
-## ⚠️ Limitations
+## ⚠️ LimitATIONS
 
 OSVision is an educational simulator, **not a replacement for a real operating system kernel**.
 
@@ -706,7 +706,7 @@ npm run dev
 
 Open the local URL printed by Vite in your terminal.
 
-**Note:** These commands assume that the repository uses the proposed React + TypeScript + Vite setup and that the application files and npm scripts have been created. Replace the repository URL if your GitHub repository uses a different name or URL.
+**Note:** These commands assume that the repository uses the proposed React + TypeScript + Vite setup and that the application files and npm scripts have been created. Replace the repository URL [...]
 
 ### 🏗️ Production Build
 
@@ -806,9 +806,13 @@ OSVision is built around a simple principle:
 
 > **Operating Systems should not only be studied theoretically — they should be explored experimentally.**
 
-By combining algorithmic correctness, interactive visualization, and measurable performance analysis, OSVision aims to make fundamental Operating Systems concepts easier to understand, test, and compare.
+By combining algorithmic correctness, interactive visualization, and measurable performance analysis, OSVision aims to make fundamental Operating Systems concepts easier to understand, test, and [...]
 
-The long-term vision is to expand the project into a comprehensive educational environment for exploring how operating systems schedule processes, manage resources, coordinate execution, and handle memory.
+The long-term vision is to expand the project into a comprehensive educational environment for exploring how operating systems schedule processes, manage resources, coordinate execution, and hand[...]
+
+## ✨ Authors
+
+Project created by: Haider Hamid, Suhaib Nazir, Shakir, Sahil, Zayeem Zahoor, Haroon Hamid
 
 ---
 
