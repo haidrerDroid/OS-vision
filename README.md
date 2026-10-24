@@ -248,16 +248,7 @@ Suggestions, bug reports, test cases, documentation improvements, and new educat
 
 Please verify algorithm implementations against known examples before submitting changes.
 
-## 👨‍💻 Meet the Developers
 
-| Developer | Role |
-|---|---|
-| [**Haider Hamid**](https://github.com/haidrerDroid) | Project Lead · Product & UX |
-| [**Suhaib Nazir**](https://github.com/lonesuhaibbb) | Frontend · Visualizations |
-| [**Sayed Shakir**](https://github.com/shakirsyed819) | Scheduling Engine |
-| **Sahil** | Testing · Quality Assurance |
-| **Zayeem Zahoor** | Deadlock · Banker's Algorithm |
-| **Haroon Hamid** | Documentation · Demonstrations |
 
 <p align="center">
   <em>Visualize. Simulate. Understand.</em>
@@ -269,7 +260,6 @@ Please verify algorithm implementations against known examples before submitting
 
 - **Project Type:** Minor Project
 - **Project Date:** 18 October 2026
-- **Developed By:** OSVision Project Team
 - **Repository:** [haidrerDroid/OSVision](https://github.com/haidrerDroid/OSVision)
 
 This project aims to make Operating Systems concepts more accessible through interactive simulation, visual analysis, and practical experimentation.
