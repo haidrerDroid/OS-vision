@@ -32,7 +32,6 @@
 - [Testing and Development Roadmap](#-testing-and-development-roadmap)
 - [Limitations and Future Scope](#️-limitations-and-future-scope)
 - [Contributing](#-contributing)
-- [Meet the Developers](#-meet-the-developers)
 - [Project Information](#-project-information)
 
 ## 🌟 Overview
