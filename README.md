@@ -260,7 +260,6 @@ Please verify algorithm implementations against known examples before submitting
 
 - **Project Type:** Minor Project
 - **Project Date:** 18 October 2026
-- **Repository:** [haidrerDroid/OSVision](https://github.com/haidrerDroid/OSVision)
 
 This project aims to make Operating Systems concepts more accessible through interactive simulation, visual analysis, and practical experimentation.
 
